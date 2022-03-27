@@ -23,7 +23,7 @@ public class RestConsumerApplication {
 
 }
 ```  
-## rest-consumer service class:  
+## rest-consumer service method:  
 ```
 
 	 @HystrixCommand(fallbackMethod = "defaultGreeting")
